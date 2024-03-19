@@ -16,7 +16,7 @@ export default function Header() {
   };
 
   return (
-    <div className="flex gap-[40px] w-full pl-[200px]">
+    <div className="flex flex-col md:flex-row gap-[40px] w-full lg:pl-[200px] md:pl-[50]">
       <img
         className="w-[200px] h-[200px] rounded-full"
         src={HeadShot}
